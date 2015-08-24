@@ -5,11 +5,31 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_citizen</sprite>
+    <sprite>sprites\spr_agent</sprite>
+    <sprite>sprites\spr_vector</sprite>
+    <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_door</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_player</object>
+    <object>objects\obj_citizen</object>
+    <objects name="obj_group_fbi">
+      <object>objects\obj_agent</object>
+    </objects>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_urtm</object>
+    <object>objects\obj_intro_advance</object>
+    <object>objects\obj_door</object>
+    <object>objects\obj_human</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>
+    <room>rooms\rm_baltimore</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
