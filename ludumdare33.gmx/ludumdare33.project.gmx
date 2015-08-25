@@ -12,6 +12,7 @@
     <sprite>sprites\spr_vector</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_door</sprite>
+    <sprite>sprites\spr_monster</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
