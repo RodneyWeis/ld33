@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>/// Creation alarm countdown
 
+randomize();
 alarm[0] = 300;
 
 </string>
