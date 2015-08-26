@@ -51,9 +51,9 @@ alarm[0] = 300;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Go to Baltimore
+            <string>/// Go to Quantico
 
-room_goto_next();
+room_goto(rm_quantico);
 </string>
           </argument>
         </arguments>
